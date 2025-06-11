@@ -1,0 +1,51 @@
+# Nuxt dev/build outputs
+desqta-website/.output
+desqta-website/.data
+desqta-website/.nuxt
+desqta-website/.nitro
+desqta-website/.cache
+desqta-website/dist
+
+# Node dependencies
+desqta-website/node_modules
+
+# Logs
+desqta-website/logs
+desqta-website/*.log
+
+# Misc
+desqta-website/.DS_Store
+desqta-website/.fleet
+desqta-website/.idea
+
+# Local env files
+desqta-website/.env
+desqta-website/.env.*
+desqta-website/.env.example
+
+
+
+# Nuxt dev/build outputs
+bswebsite-plus/.output
+bswebsite-plus/.data
+bswebsite-plus/.nuxt
+bswebsite-plus/.nitro
+bswebsite-plus/.cache
+bswebsite-plus/dist
+
+# Node dependencies
+bswebsite-plus/node_modules
+
+# Logs
+bswebsite-plus/logs
+bswebsite-plus/*.log
+
+# Misc
+bswebsite-plus/.DS_Store
+bswebsite-plus/.fleet
+bswebsite-plus/.idea
+
+# Local env files
+bswebsite-plus/.env
+bswebsite-plus/.env.*
+bswebsite-plus/.env.example

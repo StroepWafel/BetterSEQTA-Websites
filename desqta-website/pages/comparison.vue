@@ -14,18 +14,18 @@
         <table class="w-full text-left rounded-2xl border border-white/10 bg-white/5 shadow-xl">
           <thead>
             <tr>
-              <th class="px-6 py-4 text-lg font-semibold text-white">Feature</th>
-              <th class="px-6 py-4 text-lg font-semibold text-blue-400 text-center">DesQTA</th>
-              <th class="px-6 py-4 text-lg font-semibold text-zinc-300 text-center">Web Version</th>
+              <th class="px-6 py-4 text-lg font-semibold text-white flex items-center justify-center">Feature</th>
+              <th class="px-6 py-4 text-lg font-semibold text-blue-400 flex items-center justify-center">DesQTA</th>
+              <th class="px-6 py-4 text-lg font-semibold text-zinc-300 flex items-center justify-center">Web Version</th>
             </tr>
           </thead>
           <tbody class="divide-y divide-white/10 rounded-2xl">
             <!-- Organise so features both softwares have come first -->
             <!-- <Checkmark /> for yes, <Crossmark /> for no. -->
             <tr>
-              <td class="px-6 py-5 text-base text-zinc-300">Better than default SEQTA</td> <!-- Feature -->
-              <td class="px-6 py-5 text-center"><Checkmark /></td> <!-- Does DesQTA have it? -->
-              <td class="px-6 py-5 text-center"><Checkmark /></td> <!-- Does BetterSeqta+ have it? -->
+              <td class="px-6 py-5 text-base text-zinc-300">Better than default SEQTA</td>
+              <td class="px-6 py-5 flex items-center justify-center"><Checkmark /></td>
+              <td class="px-6 py-5 flex items-center justify-center"><Checkmark /></td>
             </tr>
             <tr>
               <td class="px-6 py-5 text-base text-zinc-300">Local Application</td> <!-- Feature -->
@@ -64,8 +64,8 @@
             </tr>
             <tr>
               <td class="px-6 py-5 text-base text-zinc-300">Performant and Fast</td> <!-- Feature -->
-              <td class="px-6 py-5 text-center"><Crossmark /></td> <!-- Does DesQTA have it? -->
-              <td class="px-6 py-5 text-center"><Checkmark /></td> <!-- Does BetterSeqta+ have it? -->
+              <td class="px-6 py-5 text-center"><Checkmark /></td> <!-- Does DesQTA have it? -->
+              <td class="px-6 py-5 text-center"><Crossmark /></td> <!-- Does BetterSeqta+ have it? -->
             </tr>
             <tr>
               <td class="px-6 py-5 text-base text-zinc-300">Browser-dependent performance</td> <!-- Feature -->

@@ -27,15 +27,16 @@ jobs:
         working-directory: ./bswebsite-plus
 
 
+      - name: Prepare combined output
+        run: |
+          mkdir -p ./combined-site
+          cp -r ./bswebsite-plus/.output/public/* ./combined-site/
+          cp -r ./desqta-website/.output/public/* ./combined-site/
+      
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ./bswebsite-plus/.output/public
-
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3
-        with:
-          path: ./desqta-website/.output/public
+          path: ./combined-site
   # Deployment job
   deploy:
     # Add a dependency to the build job

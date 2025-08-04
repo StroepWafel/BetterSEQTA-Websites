@@ -14,18 +14,18 @@
         <table class="w-full text-left rounded-2xl border border-white/10 bg-white/5 shadow-xl">
           <thead>
             <tr>
-              <th class="px-6 py-4 text-lg font-semibold text-white flex items-center justify-center">Feature</th>
-              <th class="px-6 py-4 text-lg font-semibold text-blue-400 flex items-center justify-center">DesQTA</th>
-              <th class="px-6 py-4 text-lg font-semibold text-zinc-300 flex items-center justify-center">Web Version</th>
+              <th class="px-6 py-4 text-lg font-semibold text-white">Feature</th>
+              <th class="px-6 py-4 text-lg font-semibold text-blue-400 text-center">DesQTA</th>
+              <th class="px-6 py-4 text-lg font-semibold text-zinc-300 text-center">Web Version</th>
             </tr>
           </thead>
           <tbody class="divide-y divide-white/10 rounded-2xl">
             <!-- Organise so features both softwares have come first -->
             <!-- <Checkmark /> for yes, <Crossmark /> for no. -->
             <tr>
-              <td class="px-6 py-5 text-base text-zinc-300"><div class="flex items-center justify-center h-full w-full">Better than default SEQTA</div></td>
-              <td class="px-6 py-5 flex items-center justify-center"><div class="flex items-center justify-center h-full w-full"><Checkmark /></div></td>
-              <td class="px-6 py-5 flex items-center justify-center"><div class="flex items-center justify-center h-full w-full"><Checkmark /></div></td>
+              <td class="px-6 py-5 text-base text-zinc-300">Better than default SEQTA</td> <!-- Feature -->
+              <td class="px-6 py-5 text-center"><Checkmark /></td> <!-- Does DesQTA have it? -->
+              <td class="px-6 py-5 text-center"><Checkmark /></td> <!-- Does BetterSeqta+ have it? -->
             </tr>
             <tr>
               <td class="px-6 py-5 text-base text-zinc-300">Local Application</td> <!-- Feature -->
@@ -64,8 +64,8 @@
             </tr>
             <tr>
               <td class="px-6 py-5 text-base text-zinc-300">Performant and Fast</td> <!-- Feature -->
-              <td class="px-6 py-5 text-center"><Checkmark /></td> <!-- Does DesQTA have it? -->
-              <td class="px-6 py-5 text-center"><Crossmark /></td> <!-- Does BetterSeqta+ have it? -->
+              <td class="px-6 py-5 text-center"><Crossmark /></td> <!-- Does DesQTA have it? -->
+              <td class="px-6 py-5 text-center"><Checkmark /></td> <!-- Does BetterSeqta+ have it? -->
             </tr>
             <tr>
               <td class="px-6 py-5 text-base text-zinc-300">Browser-dependent performance</td> <!-- Feature -->
@@ -98,7 +98,7 @@
 const Checkmark = defineComponent({
   name: 'Checkmark',
   template: `
-    <svg class="w-6 h-6 icon" fill="#000000" width="24px" height="24px" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+    <svg fill="#000000" width="24px" height="24px" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
       <path d="M0 26.016v-20Q0 3.52 1.76 1.76T6.016 0h20q2.464 0 4.224 1.76T32 6.016v20q0 2.496-1.76 4.224T26.016 32h-20Q3.52 32 1.76 30.24T0 26.016m4 0q0 .832.576 1.408t1.44.576h20q.8 0 1.408-.576T28 26.016v-20q0-.832-.576-1.408T26.016 4h-20q-.832 0-1.44.608T4 6.016zM7.584 16q0-.832.608-1.408t1.408-.576 1.408.576l2.848 2.816 7.072-7.04q.576-.608 1.408-.608t1.408.608.608 1.408-.608 1.408l-8.48 8.48q-.576.608-1.408.608t-1.408-.608l-4.256-4.256q-.608-.576-.608-1.408"/>
     </svg>
   `
@@ -107,7 +107,7 @@ const Checkmark = defineComponent({
 const Crossmark = defineComponent({
   name: 'Crossmark',
   template: `
-    <svg class="w-6 h-6 icon" fill="#000000" width="24px" height="24px" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+    <svg fill="#000000" width="24px" height="24px" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
       <path d="M0 26.016q0 2.496 1.76 4.224t4.256 1.76h20q2.464 0 4.224-1.76t1.76-4.224v-20q0-2.496-1.76-4.256t-4.224-1.76h-20q-2.496 0-4.256 1.76t-1.76 4.256v20zM4 26.016v-20q0-0.832 0.576-1.408t1.44-0.608h20q0.8 0 1.408 0.608t0.576 1.408v20q0 0.832-0.576 1.408t-1.408 0.576h-20q-0.832 0-1.44-0.576t-0.576-1.408zM9.76 20.256q0 0.832 0.576 1.408t1.44 0.608 1.408-0.608l2.816-2.816 2.816 2.816q0.576 0.608 1.408 0.608t1.44-0.608 0.576-1.408-0.576-1.408l-2.848-2.848 2.848-2.816q0.576-0.576 0.576-1.408t-0.576-1.408-1.44-0.608-1.408 0.608l-2.816 2.816-2.816-2.816q-0.576-0.608-1.408-0.608t-1.44 0.608-0.576 1.408 0.576 1.408l2.848 2.816-2.848 2.848q-0.576 0.576-0.576 1.408z"></path>
     </svg>
   `

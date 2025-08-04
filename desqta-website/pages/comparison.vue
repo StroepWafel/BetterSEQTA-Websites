@@ -23,9 +23,9 @@
             <!-- Organise so features both softwares have come first -->
             <!-- <Checkmark /> for yes, <Crossmark /> for no. -->
             <tr>
-              <td class="px-6 py-5 text-base text-zinc-300">Better than default SEQTA</td>
-              <td class="px-6 py-5 flex items-center justify-center"><Checkmark /></td>
-              <td class="px-6 py-5 flex items-center justify-center"><Checkmark /></td>
+              <td class="px-6 py-5 text-base text-zinc-300"><div class="flex items-center justify-center h-full w-full">Better than default SEQTA</div></td>
+              <td class="px-6 py-5 flex items-center justify-center"><div class="flex items-center justify-center h-full w-full"><Checkmark /></div></td>
+              <td class="px-6 py-5 flex items-center justify-center"><div class="flex items-center justify-center h-full w-full"><Checkmark /></div></td>
             </tr>
             <tr>
               <td class="px-6 py-5 text-base text-zinc-300">Local Application</td> <!-- Feature -->

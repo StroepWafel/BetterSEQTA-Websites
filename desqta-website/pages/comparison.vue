@@ -24,8 +24,8 @@
             <!-- <Checkmark /> for yes, <Crossmark /> for no. -->
             <tr>
               <td class="px-6 py-5 text-base text-zinc-300">Better than default SEQTA</td> <!-- Feature -->
-              <td class="px-6 py-5 text-center"><Checkmark /></td> <!-- Does DesQTA have it? -->
-              <td class="px-6 py-5 text-center"><Checkmark /></td> <!-- Does BetterSeqta+ have it? -->
+              <td class="px-6 py-5 text-center align-middle"><Checkmark /></td> <!-- Does DesQTA have it? -->
+              <td class="px-6 py-5 text-center align-middle"><Checkmark /></td> <!-- Does BetterSeqta+ have it? -->
             </tr>
             <tr>
               <td class="px-6 py-5 text-base text-zinc-300">Local Application</td> <!-- Feature -->
